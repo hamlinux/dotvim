@@ -1,4 +1,10 @@
 " vimrc
+
+"Pathogen Plugin
+call pathogen#runtime_append_all_bundles()
+call pathogen#helptags()
+
+
 " This will display line numbers along the left side of a window: 
 set number
 
